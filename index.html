@@ -3,8 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		h1{
+			color: red;
+		}
+	</style>
 </head>
 <body>
 	<h1>Hello blog!</h1>
 </body>
 </html>
+<script>
+	var oH1 = document.querySelector('h1');
+	oH1.onclick = function(){
+		this.style.color = 'green';
+	}
+</script>
