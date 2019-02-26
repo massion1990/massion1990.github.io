@@ -19,7 +19,13 @@
 </html>
 <script>
 	var oH1 = document.querySelector('h1');
+	var flag = true;
 	oH1.onclick = function(){
-		this.style.color = 'green';
+		if(flag){
+			this.style.color = 'green';
+		}else{
+			this.style.color = 'red';
+		}
+		flag = !flag;
 	}
 </script>
