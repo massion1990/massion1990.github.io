@@ -11,4 +11,4 @@ function color16(){
 
 var timer = setInterval(function(){
 	oH1.style.color = color16();
-}, 500);
+}, 2000);
